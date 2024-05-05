@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.bb.tests.RegisterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verify_the_register_functionality_By_click_on_Resgister_Butoon_without_Entering_The_data"/>
+        </methods>
+      </class> <!-- com.bb.tests.RegisterTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

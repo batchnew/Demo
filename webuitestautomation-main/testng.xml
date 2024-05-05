@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Default suite">
+	
+	
+	<groups><run><include name="smoke"></include></run></groups>
+	
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="com.bb.tests.LoginTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+
